@@ -1,5 +1,11 @@
 SELECT * FROM cebs;
 
+CREATE TABLE celebs (
+   id INTEGER, 
+   name TEXT, 
+   age INTEGER
+);
+
 
 ALTER TABLE celebs 
 ADD COLUMN twitter_handle TEXT; 
