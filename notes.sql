@@ -6,11 +6,8 @@ CREATE TABLE celebs (
    age INTEGER
 );
 
-
 ALTER TABLE celebs 
 ADD COLUMN twitter_handle TEXT; 
-
-SELECT * FROM celebs; 
 
 INSERT INTO celebs (id, name, age) 
 VALUES (2, 'Beyonce Knowles', 42); 
