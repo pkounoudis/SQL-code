@@ -20,3 +20,5 @@ VALUES (4, 'Taylor Swift', 33);
 
 SELECT * FROM Customers
 WHERE Country='Mexico';
+
+SELECT DISTINCT Country FROM Customers;
