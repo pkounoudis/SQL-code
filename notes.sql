@@ -22,3 +22,6 @@ SELECT * FROM Customers
 WHERE Country='Mexico';
 
 SELECT DISTINCT Country FROM Customers;
+
+SELECT Count(*) AS DistinctCountries
+FROM (SELECT DISTINCT Country FROM Customers);
