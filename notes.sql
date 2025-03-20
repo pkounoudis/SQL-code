@@ -25,3 +25,6 @@ SELECT DISTINCT Country FROM Customers;
 
 SELECT Count(*) AS DistinctCountries
 FROM (SELECT DISTINCT Country FROM Customers);
+
+SELECT * FROM Customers
+WHERE CustomerID=1;
