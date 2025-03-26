@@ -28,3 +28,6 @@ FROM (SELECT DISTINCT Country FROM Customers);
 
 SELECT * FROM Customers
 WHERE CustomerID=1;
+
+SELECT * FROM Products
+ORDER BY Price;
