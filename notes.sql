@@ -37,3 +37,7 @@ ORDER BY Price DESC;
 
 SELECT * FROM Customers
 ORDER BY Country ASC, CustomerName DESC;
+
+SELECT *
+FROM Customers
+WHERE Country = 'Spain' AND CustomerName LIKE 'G%';
