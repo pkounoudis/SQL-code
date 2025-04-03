@@ -41,3 +41,10 @@ ORDER BY Country ASC, CustomerName DESC;
 SELECT *
 FROM Customers
 WHERE Country = 'Spain' AND CustomerName LIKE 'G%';
+
+SELECT * FROM Customers
+WHERE Country = 'Germany'
+AND City = 'Berlin'
+AND PostalCode > 12000;
+
+
