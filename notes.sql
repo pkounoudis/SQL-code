@@ -56,3 +56,7 @@ WHERE City = 'Berlin' OR CustomerName LIKE 'G%' OR Country = 'Norway';
 
 SELECT * FROM Products
 ORDER BY Price DESC;
+
+SELECT *
+FROM Customers
+WHERE Country = 'Spain' AND CustomerName LIKE 'G%';
