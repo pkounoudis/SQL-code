@@ -60,3 +60,6 @@ ORDER BY Price DESC;
 SELECT *
 FROM Customers
 WHERE Country = 'Spain' AND CustomerName LIKE 'G%';
+
+SELECT * FROM Products
+ORDER BY Price;
