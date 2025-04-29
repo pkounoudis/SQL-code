@@ -63,3 +63,7 @@ WHERE Country = 'Spain' AND CustomerName LIKE 'G%';
 
 SELECT * FROM Products
 ORDER BY Price;
+
+SELECT *
+FROM Customers
+WHERE Country = 'Spain' AND CustomerName LIKE 'G%';
