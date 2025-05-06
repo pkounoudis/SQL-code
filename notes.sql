@@ -72,3 +72,7 @@ SELECT * FROM Customers
 WHERE Country = 'Brazil'
 AND City = 'Rio de Janeiro'
 AND CustomerID > 50;
+
+SELECT *
+FROM Customers
+WHERE Country = 'Germany' OR Country = 'Spain';
