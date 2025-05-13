@@ -82,3 +82,6 @@ WHERE City = 'Berlin' OR CustomerName LIKE 'G%' OR Country = 'Norway';
 
 SELECT * FROM Customers
 WHERE NOT Country = 'Spain';
+
+SELECT * FROM Customers
+WHERE CustomerID NOT BETWEEN 10 AND 60;
