@@ -85,3 +85,6 @@ WHERE NOT Country = 'Spain';
 
 SELECT * FROM Customers
 WHERE CustomerID NOT BETWEEN 10 AND 60;
+
+INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country)
+VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway');
