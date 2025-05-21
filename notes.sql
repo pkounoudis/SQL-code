@@ -92,3 +92,7 @@ VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway
 SELECT CustomerName, ContactName, Address
 FROM Customers
 WHERE Address IS NULL;
+
+SELECT CustomerName, ContactName, Address
+FROM Customers
+WHERE Address IS NULL;
