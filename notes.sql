@@ -96,3 +96,7 @@ WHERE Address IS NULL;
 SELECT CustomerName, ContactName, Address
 FROM Customers
 WHERE Address IS NULL;
+
+UPDATE Customers
+SET ContactName = 'Alfred Schmidt', City= 'Frankfurt'
+WHERE CustomerID = 1;
