@@ -102,3 +102,5 @@ SET ContactName = 'Alfred Schmidt', City= 'Frankfurt'
 WHERE CustomerID = 1;
 
 DELETE FROM Customers WHERE CustomerName='Alfreds Futterkiste';
+
+SELECT TOP 3 * FROM Customers;
