@@ -104,3 +104,6 @@ WHERE CustomerID = 1;
 DELETE FROM Customers WHERE CustomerName='Alfreds Futterkiste';
 
 SELECT TOP 3 * FROM Customers;
+
+SELECT * FROM Customers
+LIMIT 3;
