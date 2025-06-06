@@ -107,3 +107,6 @@ SELECT TOP 3 * FROM Customers;
 
 SELECT * FROM Customers
 LIMIT 3;
+
+SELECT MIN(Price)
+FROM Products;
