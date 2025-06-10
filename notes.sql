@@ -113,3 +113,6 @@ FROM Products;
 
 SELECT MAX(Price)
 FROM Products;
+
+SELECT COUNT(*)
+FROM Products;
