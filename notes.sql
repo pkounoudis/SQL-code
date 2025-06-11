@@ -116,3 +116,6 @@ FROM Products;
 
 SELECT COUNT(*)
 FROM Products;
+
+SELECT COUNT(ProductName)
+FROM Products;
