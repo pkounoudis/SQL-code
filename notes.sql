@@ -119,3 +119,6 @@ FROM Products;
 
 SELECT COUNT(ProductName)
 FROM Products;
+
+SELECT SUM(Quantity)
+FROM OrderDetails;
