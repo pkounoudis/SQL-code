@@ -122,3 +122,7 @@ FROM Products;
 
 SELECT SUM(Quantity)
 FROM OrderDetails;
+
+SELECT SUM(Quantity)
+FROM OrderDetails
+WHERE ProductId = 11;
