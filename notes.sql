@@ -126,3 +126,6 @@ FROM OrderDetails;
 SELECT SUM(Quantity)
 FROM OrderDetails
 WHERE ProductId = 11;
+
+SELECT AVG(Price)
+FROM Products;
