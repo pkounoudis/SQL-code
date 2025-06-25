@@ -129,3 +129,6 @@ WHERE ProductId = 11;
 
 SELECT AVG(Price)
 FROM Products;
+
+SELECT * FROM Customers
+WHERE CustomerName LIKE 'a%';
