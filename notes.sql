@@ -141,3 +141,6 @@ WHERE Country IN ('Germany', 'France', 'UK');
 
 SELECT * FROM Customers
 WHERE CustomerName LIKE 'a%';
+
+SELECT * FROM Customers
+WHERE CustomerName LIKE '%es';
