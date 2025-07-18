@@ -147,3 +147,6 @@ WHERE CustomerName LIKE '%es';
 
 SELECT * FROM Customers
 WHERE Country IN ('Germany', 'France', 'UK');
+
+SELECT * FROM Products
+WHERE Price BETWEEN 10 AND 20;
