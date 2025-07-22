@@ -151,5 +151,6 @@ WHERE Country IN ('Germany', 'France', 'UK');
 SELECT * FROM Products
 WHERE Price BETWEEN 10 AND 20;
 
+# Alias
 SELECT CustomerID AS ID
 FROM Customers;
