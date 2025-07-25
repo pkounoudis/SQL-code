@@ -154,3 +154,6 @@ WHERE Price BETWEEN 10 AND 20;
 # Alias
 SELECT CustomerID AS ID
 FROM Customers;
+
+SELECT CustomerID AS ID, CustomerName AS Customer
+FROM Customers;
