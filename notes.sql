@@ -157,3 +157,7 @@ FROM Customers;
 
 SELECT CustomerID AS ID, CustomerName AS Customer
 FROM Customers;
+
+SELECT Orders.OrderID, Customers.CustomerName, Orders.OrderDate
+FROM Orders
+INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID;
