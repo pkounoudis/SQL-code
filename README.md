@@ -1,1 +1,1 @@
-# SQL-code
+# SQL-code snippets
