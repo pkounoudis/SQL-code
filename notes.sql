@@ -1,3 +1,4 @@
+# Notes from SQL W3Schools
 SELECT * FROM cebs;
 
 CREATE TABLE celebs (
